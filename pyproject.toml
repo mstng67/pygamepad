@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "gamepad"
+version = "0.1.0"
+description = ""
+authors = ["mstng67"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+inputs = "^0.5"
+
+
+[tool.poetry.group.dev.dependencies]
+inputs = "^0.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

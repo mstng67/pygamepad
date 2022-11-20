@@ -1,0 +1,18 @@
+[[package]]
+name = "inputs"
+version = "0.5"
+description = "Cross-platform Python support for keyboards, mice and gamepads."
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "5a333ecb7bc72fa95f6b200f8c2c38439ddb509f720df56c724980c16ecbdd54"
+
+[metadata.files]
+inputs = [
+    {file = "inputs-0.5-py2.py3-none-any.whl", hash = "sha256:13f894564e52134cf1e3862b1811da034875eb1f2b62e6021e3776e9669a96ec"},
+    {file = "inputs-0.5.tar.gz", hash = "sha256:a31d5b96a3525f1232f326be9e7ce8ccaf873c6b1fb84d9f3c9bc3d79b23eae4"},
+]
