@@ -120,7 +120,7 @@ class Controller():
 
         # TODO: identify a better way to do this - needs to be part of the
         # ControllerInput object (or derrivatives)
-        r_obj = re.compile('^[A-Z0-9]+_[A-Z0-9]+(?P<axis>[XY])$')
+        r_obj = re.compile('^[A-Z0-9]+_[A-Z0-9]*(?P<axis>[XY])$')
 
         while True:
             events = get_gamepad()
