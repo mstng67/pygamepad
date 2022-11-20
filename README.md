@@ -1,4 +1,4 @@
-# gamepad
+# pygamepad
 A python abstraction for gamepads
 
 ## Usage
